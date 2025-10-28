@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Pintusander</title>
+<link rel='stylesheet' href='style.css'>
+</head>
+<body>
+<header>
+    <img src='assets/logo.png' alt='Logo Pintusander' class='logo'>
+    <h1>PINTUSANDER</h1>
+    <h2>Santander pinta con el corazón</h2>
+    <nav>
+        <a href='#inicio'>Inicio</a>
+        <a href='#productos'>Productos</a>
+        <a href='#servicios'>Servicios</a>
+        <a href='#galeria'>Galería</a>
+    </nav>
+    <div class='social'>
+        <a href='https://wa.me/3005585778'>WhatsApp</a>
+        <a href='https://instagram.com/pintusander_oficial'>Instagram</a>
+        <a href='https://facebook.com/Pintusander'>Facebook</a>
+    </div>
+</header>
+<section id='productos'>
+    <h2>Productos</h2>
+    <div class='productos-grid'>
+        <div class='producto'><img src='assets/duraplex_rhino.png'><p><strong>Duraplex RHINO</strong></p></div>
+        <div class='producto'><img src='assets/duraplex_1.png'><p><strong>Duraplex 1</strong></p></div>
+        <div class='producto'><img src='assets/duraplex_2.png'><p><strong>Duraplex 2</strong></p></div>
+        <div class='producto'><img src='assets/plastiestuco.png'><p><strong>Plastiestuco</strong></p></div>
+    </div>
+</section>
+<section id='servicios'>
+    <h2>Servicios</h2>
+    <ul>
+        <li>Pintura de casas</li>
+        <li>Pintura de fachadas</li>
+        <li>Limpieza de áreas comerciales</li>
+    </ul>
+</section>
+<section id='galeria'>
+    <h2>Galería</h2>
+    <input type='file' id='upload' multiple>
+    <div id='gallery'></div>
+</section>
+<section id='contacto'>
+    <h2>Contáctenos</h2>
+    <form>
+        <input type='text' placeholder='Nombre'>
+        <input type='email' placeholder='Correo electrónico'>
+        <textarea placeholder='Mensaje'></textarea>
+        <button type='submit'>Enviar</button>
+    </form>
+</section>
+<script src='script.js'></script>
+</body>
+</html>
